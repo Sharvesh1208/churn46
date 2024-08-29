@@ -3,7 +3,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model2 = load_model(r"E:\S Pranav\m.h5")
+model2 = load_model("m.h5")
 
 # Streamlit app title
 st.title("Telecom Churn Prediction")
